@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">易签</string>
+	<string name="edit">编辑</string>
+	<string name="insert_img">插入图片</string>
+	<string name="voice_in">语音输入</string>
+	<string name="send">发送</string>
+	<string name="img_text">图片转文字</string>
+	<string name="delete">删除</string>
+	<string name="cloud_tip">qisu 云服务可实时同步您的易签</string>
+	<string name="click_open">点击开启</string>
+	<string name="search_sign">搜索易签</string>
+	<string name="sign_sel">选择易签</string>
+	<string name="sign_cre">〈   新建易签</string>
+	<string name="sign_des">易签详情</string>
+	<string name="sign_mod">修改易签</string>
+	<string name="sign_ret">〈 </string>
+	<string name="complete">完成</string>
+	<string name="select_all">全选</string>
+	<string name="cancel">取消</string>
+	<string name="zhitop">置顶</string>
+	<string name="cancel_zhitop">取消置顶</string>
+	<string name="delete_esign">删除易签</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

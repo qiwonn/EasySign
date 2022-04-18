@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> 
+	<dimen name="dp_0.5">0.5dp</dimen>
+	<dimen name="dp_foo_term">25dp</dimen>
+	<dimen name="dp_tit_name">18sp</dimen>
+	<dimen name="dp_tit_nam2">16sp</dimen>
+	<dimen name="dp_tit_nam3">15sp</dimen>
+	<dimen name="dp_tit_opra">14sp</dimen>
+	<dimen name="sp_grouped">11sp</dimen>
+	<dimen name="dp_tit_barh">54dp</dimen>
+	<dimen name="dp_sid_cont">14dp</dimen>
+	<dimen name="dp_img_marg">16dp</dimen>
+	<dimen name="dp_img_widh">40dp</dimen>
+</resources>

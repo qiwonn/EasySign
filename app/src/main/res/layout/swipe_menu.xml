@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/swipe_menu"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:gravity="center"
+	android:paddingLeft="32dp"
+	android:paddingRight="@dimen/dp_sid_cont">
+	<ImageView
+		android:id="@+id/menu_upload"
+		android:layout_width="32dp"
+		android:layout_height="32dp"
+		android:src="@drawable/send2"/>
+	<ImageView
+		android:id="@+id/menu_delete"
+		android:layout_width="32dp"
+		android:layout_height="32dp"
+		android:layout_marginLeft="32dp"
+		android:src="@drawable/delete"/>
+</LinearLayout>

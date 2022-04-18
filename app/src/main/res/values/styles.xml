@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
+		<item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+	</style>
+	
+    <style name="AnimationActivity" mce_bogus="1" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/anim_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/anim_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/back_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/back_exit</item>
+    </style>
+	
+	<style name="ActivityTheme" parent="AppTheme">
+		<item name="android:windowIsTranslucent">true</item>
+	</style>
+	
+	<!--  弹出菜单dialog的主题  -->
+	<style name="BottomDialogTheme" parent="@android:style/Theme.Dialog">
+		<!--  无标题  -->
+		<item name="android:windowNoTitle">true</item>
+		<!--  半透明  -->
+		<item name="android:windowIsTranslucent">true</item>
+		<item name="android:background">@android:color/transparent</item>
+		<!--  背景透明  -->
+		<item name="android:windowBackground">@color/transparent</item>
+		<!--  模糊  -->
+		<item name="android:backgroundDimEnabled">true</item>
+		<!--  遮罩层  -->
+		<item name="android:backgroundDimAmount">0.3</item>
+	</style>
+	<!--  弹出菜单dialog的动画  -->
+	<style name="BottomDialogAnimation">
+		<item name="android:windowEnterAnimation">@anim/translate_dialog_in</item>
+	</style>
+	
+	<style name="bottom_nav_bar_tab_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+		<item name="android:scaleType">center</item>
+        <item name="android:gravity">center</item>
+		<item name="android:textSize">12sp</item>
+		<item name="android:textColor">@color/colorOrange</item>
+    </style>
+</resources>

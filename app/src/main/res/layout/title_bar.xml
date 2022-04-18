@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_tit_barh"
+	android:id="@+id/title"
+    android:background="@drawable/beautifull_linearlayout_border"
+    android:orientation="horizontal">
+	<TextView
+		android:id="@+id/title_select_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical"
+        android:gravity="center|left"
+		android:paddingLeft="14dp"
+		android:visibility="gone"
+        android:text=""
+        android:textColor="@color/colorOrange"
+        android:textSize="@dimen/dp_tit_nam2" />
+	<TextView
+		android:id="@+id/title_nam2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:layout_gravity="center_vertical"
+        android:gravity="center"
+		android:visibility="gone"
+		android:textStyle="bold"
+        android:text=""
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/dp_tit_nam2" />
+	<TextView
+		android:id="@+id/title_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+		android:layout_gravity="center_vertical"
+        android:gravity="center_vertical|left"
+		android:paddingLeft="14dp"
+		android:textStyle="bold"
+        android:text="@string/app_name"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/dp_tit_name" />
+	<ImageView
+        android:id="@+id/title_voice"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_gravity="center"
+		android:layout_marginRight="12dp"
+        android:src="@drawable/voice"/>
+	<ImageView
+        android:id="@+id/title_add"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_gravity="center"
+		android:layout_marginRight="8dp"
+        android:src="@drawable/add" />
+	<TextView
+        android:id="@+id/title_edit"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+		android:paddingStart="4dp"
+		android:paddingEnd="4dp"
+		android:layout_alignParentRight="true"
+		android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:text="@string/edit"
+        android:textColor="@color/colorOrange"
+        android:textSize="@dimen/dp_tit_nam2" />
+</LinearLayout>

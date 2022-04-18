@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="colorPrimary">#ffffff</color>
+	<color name="colorPrimaryDark">#000000</color>
+	<color name="colorAccent">#000000</color>
+	<color name="black_ed">#d0d0d0</color>
+	<color name="black_ed_2">#eeeeee</color>
+	<color name="colorHint">#c0c0c0</color>
+	<color name="colorTime">#909090</color>
+	<color name="colorSession">#6e6e6e</color>
+	<color name="colorOrange">#ffa500</color>
+	<color name="colorSearbg">#efefef</color>
+	<color name="colorRed">#ff0000</color>
+	<color name="transparent">#00000000</color>
+</resources>

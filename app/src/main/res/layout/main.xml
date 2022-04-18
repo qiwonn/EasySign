@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@color/colorPrimary"
+	android:gravity="top|center_horizontal"
+	android:orientation="vertical"
+	android:paddingTop="26dp">
+	<include layout="@layout/title_bar"/>
+	<include layout="@layout/search"/>
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1">
+		<include layout="@layout/cloud_open"/>
+		<com.wq.esign.swipelistview.SwipeMenuListView 
+			android:id="@+id/listView" 
+			android:layout_below="@id/cloud_sync_tv"
+			android:layout_width="match_parent" 
+			android:layout_height="match_parent"
+			android:divider="@null"
+			android:scrollbars="none"/>
+		<LinearLayout
+			android:id="@+id/fl_mask"
+			android:visibility="gone"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:background="#4d000000"
+			android:clickable="true">
+		</LinearLayout>
+	</RelativeLayout>
+	<LinearLayout
+		android:id="@+id/nav_foo_main"
+		android:visibility="gone"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:background="@drawable/beautifull_linearlayout_foot"
+		android:paddingTop="5dp"
+		android:paddingBottom="4dp"
+		android:gravity="center">
+		<include layout="@layout/nav_foo_cre"/>
+	</LinearLayout>
+</LinearLayout>
